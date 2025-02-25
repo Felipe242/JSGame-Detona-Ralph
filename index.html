@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <link rel="shortcut icon" href="src/imagens/favicon.jpg" type="image/x-icon">
+  <title>Detona Ralph</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="menu">
+
+      <div class="menu-time menu-space">
+        <h2 class="titulo space">Time Left</h2>
+        <h2 id="time-left">0</h2>
+      </div>
+
+      <div class="menu-score menu-space">
+        <h2 class="titulo space">Your Score</h2>
+        <h2 id="score">0</h2>
+      </div>
+
+      <div class="menu-lives">
+        <img src="./src/imagens/player.png" alt="foto do player">
+        <h3>x3</h3>
+      </div>
+
+    </div>
+    
+    <div class="painel">
+      <div class="painel-row">
+        <div class="square enemy" id="0"></div>
+        <div class="square" id="0"></div>
+        <div class="square" id="0"></div>
+      </div>
+
+      <div class="painel-row">
+        <div class="square" id="0"></div>
+        <div class="square" id="0"></div>
+        <div class="square" id="0"></div>
+      </div>
+
+      <div class="painel-row">
+        <div class="square" id="0"></div>
+        <div class="square" id="0"></div>
+        <div class="square" id="0"></div>
+      </div>
+    </div>
+  </div>
+
+  <script defer src="./src/scripts/engine.js"></script>
+</body>
+</html>
